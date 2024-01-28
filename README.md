@@ -42,7 +42,7 @@ The primary use case for Identity-card-data-gateway is to facilitate the extract
 
 ## Architecture Diagram
 
-![Serverless Architecture](./images/diagram.png)
+![Serverless Architecture](./Images/Identity-card-data-gateway.svg)
 
 ## Contributing
 

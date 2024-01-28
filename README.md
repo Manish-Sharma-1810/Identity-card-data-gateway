@@ -9,6 +9,7 @@ Identity-card-data-gateway is a serverless solution designed to extract, manage,
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
+- [Architecture Diagram](#architecture-diagram)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -38,6 +39,10 @@ The primary use case for Identity-card-data-gateway is to facilitate the extract
 2. **Extraction Process**: Upon upload, the system triggers a Lambda function to extract data using Amazon Textract.
 3. **Data Storage**: Extracted card data is securely stored in DynamoDB for easy retrieval and management.
 4. **API Access**: Users can access their extracted card data through API Gateway endpoints.
+
+## Architecture Diagram
+
+![Serverless Architecture](./images/diagram.png)
 
 ## Contributing
 
